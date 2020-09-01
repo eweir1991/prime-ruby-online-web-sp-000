@@ -6,3 +6,4 @@ def prime?(number)
     remainder = number % divisor
     remainders << remainder
 end
+end
