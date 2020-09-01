@@ -6,4 +6,8 @@ def prime?(number)
     remainder = number % divisor
     remainders << remainder
 end
-end
+  if number > 1 then remainders. all? {|remainder| remainder != 0}
+  else
+    false
+  end
+  end
